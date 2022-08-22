@@ -1,0 +1,382 @@
+
+/* CSs header*/
+body{
+    margin: 0;
+}
+nav{
+  text-align: center;  
+  background-color: black;
+}
+
+.menu{
+    padding: 20px;
+}
+
+.menu a{
+    color: rgb(244, 238, 238);
+    text-decoration: none;
+}
+.menu .links{
+    margin-right: 30px;
+    margin-left: 30px;
+    transition-duration: 0.3s; 
+}
+ .menu #brand{
+    font-style: italic;
+    float: left;
+}
+
+.menu .links:hover{
+    color: aquamarine;
+}
+
+@media (min-width: 768px) {  .section{
+    color:brown;
+} }
+
+
+@media (min-width: 992px) { 
+    .section{
+        color:yellow;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .section{
+        color:blue;
+    }
+ }
+.icons{
+    width: 250px;
+  
+    height: 205px;
+} 
+
+
+
+
+/* css chữ*/
+@-webkit-keyframes my {
+    0% { color: #F8CD0A; } 
+    50% { color: #fff;  } 
+    100% { color: #F8CD0A;  } 
+}
+@-moz-keyframes my { 
+    0% { color: #F8CD0A;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+}
+@-o-keyframes my { 
+    0% { color: #F8CD0A; } 
+    50% { color: #fff; } 
+    100% { color: #F8CD0A;  } 
+}
+@keyframes my { 
+    0% { color: #F8CD0A;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+} 
+.test {
+        background:black;
+        font-size:24px;
+        font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+}
+
+
+/* Footer*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/* table*/
+.card-title{
+    text-align: center;
+    color:#0d0e0f;
+
+}
+.card-text{
+    text-align: center;
+}
+.btn btn-warning btn-block{
+text-align: center;
+background-color:#0a0a0a
+}
+
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+/* search*/
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+#search{
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+
+/* Đăng Nhập*/
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  .section .grid_1_of_4 {
+    width: calc(25% - 15px);
+    float: left;
+    margin: 7px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.section .grid_1_of_4 {
+  text-align: center;
+  padding: 10px;
+}
+div {
+  display: block;
+}
+.col{
+  float:right;
+}
